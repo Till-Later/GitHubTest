@@ -14,9 +14,16 @@ public class main {
     
     public static void main(String[] args) {
         ausgabe("Hallo Welt");
+        int ergebnis = summe(5,8);
+        ausgabe("" + ergebnis);
     }
     
     public static void ausgabe (String neueAusgabe) {
         System.out.println(neueAusgabe);
     }
+    
+    public static int summe (int a, int b) {
+        return a+b;
+    }
+    
 }
