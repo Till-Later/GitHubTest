@@ -26,4 +26,8 @@ public class main {
         return a+b;
     }
     
+    public static int produkt (int a, int b) {
+        return a*b;
+    }
+    
 }
