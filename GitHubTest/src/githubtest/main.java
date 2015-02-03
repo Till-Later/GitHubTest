@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package githubtest;
+import static Prog1Tools.IOTools.*;
 
 /**
  *
@@ -18,5 +19,9 @@ public class main {
     
     public static void ausgabe (String neueAusgabe) {
         System.out.println(neueAusgabe);
+    }
+    
+    public static void eingabe () {
+        int x = readInteger("Geben sie einen Wert ein: ");
     }
 }
