@@ -23,14 +23,19 @@ public class main {
         System.out.println(neueAusgabe);
     }
     
-<<<<<<< HEAD
+
     public static void eingabe () {
         int x = readInteger("Geben sie einen Wert ein: ");
     }
-=======
+
     public static int summe (int a, int b) {
         return a+b;
     }
     
->>>>>>> FETCH_HEAD
+
+    public static int produkt (int a, int b) {
+        return a*b;
+    }
+    
+
 }
