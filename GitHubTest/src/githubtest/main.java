@@ -20,7 +20,7 @@ public class main {
      public static void eingabe () {
         System.out.println("Welche 2 Werte sollen miteinander addiert werden?");
         int x = readInteger("Geben sie den 1. Wert ein: ");
-        int y = readInteger("Geben sie den 2. Weert ein: ");
+        int y = readInteger("Geben sie den 2. Wert ein: ");
         summe(x, y);
     }
      
