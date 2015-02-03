@@ -14,4 +14,11 @@ public class test {
     
     }
     
+    public int bla () {
+        return 42;
+    }
+    
+    public String antwort () {
+        return "Die Antwort auf alles: " + bla();
+    }
 }
