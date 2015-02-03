@@ -14,28 +14,23 @@ public class main {
 
     
     public static void main(String[] args) {
-        ausgabe("Hallo Welt");
-        int ergebnis = summe(5,8);
-        ausgabe("" + ergebnis);
+       eingabe();
     }
-    
+     public static void eingabe () {
+        System.out.println("Welche 2 Werte sollen miteinander addiert werden?");
+        int x = readInteger("Geben sie den 1. Wert ein: ");
+        int y = readInteger("Geben sie den 2. Weert ein: ");
+        summe(x, y);
+    }
+     
+     public static void summe (int a, int b) {
+        String ausgabeSumme = "Die Summe von " + a + " und " + b + " ist: "+ (a+b);
+        ausgabe(ausgabeSumme);
+    }
+     
     public static void ausgabe (String neueAusgabe) {
         System.out.println(neueAusgabe);
     }
     
-
-    public static void eingabe () {
-        int x = readInteger("Geben sie einen Wert ein: ");
-    }
-
-    public static int summe (int a, int b) {
-        return a+b;
-    }
-    
-
-    public static int produkt (int a, int b) {
-        return a*b;
-    }
-    
-
 }
+
